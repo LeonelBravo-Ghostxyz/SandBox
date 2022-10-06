@@ -50,31 +50,41 @@
                 })
             </script>
         </header>
+
         <div class="news-cards">
-        <div>
-            <img src="" alt="">
-            <h3>Lorem, ipsum dolor.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia assumenda aliquid porro, exercitationem ab dolorem, aliquam est veniam unde a qui dolor minus doloremque.</p>
-            <a href="#">Leer mas</a>
+            <!-- NEWS 1-->
+        <div id="news1">
+            <script type="text/javascript">
+                fetch('datos.json').then(response => response.json()).then(data => {
+                    document.getElementById("news1").innerHTML = `<img src="" alt=""><h3>${data.news1.title}</h3><p>${data.news1.contenido}</p><a href="#">Leer Mas</a>`
+                })
+            </script>
         </div>
-        <div>
-            <img src="" alt="">
-            <h3>Lorem, ipsum dolor.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia assumenda aliquid porro, exercitationem ab dolorem, aliquam est veniam unde a qui dolor minus doloremque.</p>
-            <a href="#">Leer mas</a>
+        <!-- NEWS 2-->
+        <div id="news2">
+            <script type="text/javascript">
+                fetch('datos.json').then(response => response.json()).then(data => {
+                    document.getElementById("news2").innerHTML = `<img src="" alt=""><h3>${data.news2.title}</h3><p>${data.news2.contenido}</p><a href="#">Leer Mas</a>`
+                })
+            </script>
         </div>
-        <div>
-            <img src="" alt="">
-            <h3>Lorem, ipsum dolor.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia assumenda aliquid porro, exercitationem ab dolorem, aliquam est veniam unde a qui dolor minus doloremque.</p>
-            <a href="#">Leer mas</a>
+        <!-- NEWS 3-->
+        <div id="news3">
+            <script type="text/javascript">
+                fetch('datos.json').then(response => response.json()).then(data => {
+                    document.getElementById("news3").innerHTML = `<img src="" alt=""><h3>${data.news3.title}</h3><p>${data.news3.contenido}</p><a href="#">Leer Mas</a>`
+                })
+            </script>
         </div>
-        <div>
-            <img src="" alt="">
-            <h3>Lorem, ipsum dolor.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia assumenda aliquid porro, exercitationem ab dolorem, aliquam est veniam unde a qui dolor minus doloremque.</p>
-            <a href="#">Leer mas</a>
+        <!-- NEWS 4-->
+        <div id="news4">
+            <script type="text/javascript">
+                fetch('datos.json').then(response => response.json()).then(data => {
+                    document.getElementById("news4").innerHTML = `<img src="" alt=""><h3>${data.news4.title}</h3><p>${data.news4.contenido}</p><a href="#">Leer Mas</a>`
+                })
+            </script>
         </div>
+        
         </div>
     </div>
 

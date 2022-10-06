@@ -42,8 +42,22 @@
             </ul>
 
         </nav>
-        <a class="twitter-timeline" href="https://twitter.com/elonmusk?ref_src=twsrc%5Etfw">Por Favor espera...</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <!-- LIBRERIA DE JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <div class="center">
+          <div class="ring"></div>
+          <span class="load">Cargando...</span>
+        </div>
+
+        <a class="twitter-timeline" href="https://twitter.com/elonmusk?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
+
+    <script type="text/javascript">
+      $(window).load(function() {
+          $(".center").fadeOut(7000, "linear");
+      });
+
+      </script>
 
     <!-- Follow -->
     <section class="social">

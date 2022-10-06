@@ -1,3 +1,20 @@
 {
-    "noticia": "Hoasdkasdkajsdkajskancvj adkjfndks blrsvasjd bvorlwueisvhnskjd veswruidjv serusjdfv swpegsldkjv sprebuhnslodfv pswvgjsdov sepgjsd v"
+    "noticia": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia assumenda aliquid porro, exercitationem ab dolorem, aliquam est veniam unde a qui dolor minus doloremque.",
+    "news1": {
+        "title": "Oa",
+        "contenido": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia assumenda aliquid porro, exercitationem ab dolorem, aliquam est veniam unde a qui dolor minus doloremque."
+    },
+    "news2": {
+        "title": "Flick",
+        "contenido": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia assumenda aliquid porro, exercitationem ab dolorem, aliquam est veniam unde a qui dolor minus doloremque."
+    },
+    "news3": {
+        "title": "Oa",
+        "contenido": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia assumenda aliquid porro, exercitationem ab dolorem, aliquam est veniam unde a qui dolor minus doloremque."
+    },
+    "news4": {
+        "title": "Bass",
+        "contenido": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia assumenda aliquid porro, exercitationem ab dolorem, aliquam est veniam unde a qui dolor minus doloremque."
+    }
+
 }
